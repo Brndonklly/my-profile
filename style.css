@@ -1,0 +1,108 @@
+body {
+  background-image: url(images/ya.jpg);
+  background-size: 100%;
+  color: rgb(30, 30, 30);
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+	color: #035FC7;
+	font-family: courier;
+	font-weight: 900;
+	letter-spacing: 2px;
+	font-size: 25px;
+	letter-spacing: 3px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: black;
+}
+
+
+/* Custom design */
+
+.container {
+	width: 700px;
+	margin : 40px auto;
+	padding: 40px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+   .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba (0, 0, 0, 0.8);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+
+}
+
+.img-circle {
+	border-radius: 10%;
+}
+
+.btn {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+	text-decoration-style: ;
+	transition-duration: .3s;
+}
+	
+.horizontallist {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.horizontallist li {
+	display: inline;
+	padding: 10px;
+}
+
+.horizontallist i {
+	font-size: 50px;
+	color: black;
+}
+
+#introduction {
+	margin: 25px;
+	padding: 50px;
+	margin-bottom: 90px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
